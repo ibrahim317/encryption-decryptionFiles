@@ -46,7 +46,7 @@ int main()
             outfile << contant;
             infile.close();
             outfile.close();
-            cout << "\n\n\t\t\t\t\t#Encryption is Done Succefully#";
+            cout << "\n\n\t\t\t#Encryption is Done Succefully#";
             cout << "\n\nType 1 to encrypt your file \nType 2 to decrypt your file \nType 3 to exit\n";
             for (int i = 0; i < 80; i++)
             {
@@ -82,7 +82,7 @@ int main()
             outfile << contant;
             infile.close();
             outfile.close();
-            cout << "\n\n\t\t\t\t\t#Decryption is Done Succefully#";
+            cout << "\n\n\t\t\t#Decryption is Done Succefully#";
             cout << "\n\nType 1 to encrypt your file \nType 2 to decrypt your file \nType 3 to exit\n";
             for (int i = 0; i < 80; i++)
             {
