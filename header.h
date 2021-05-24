@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <limits>
 using namespace std;
 int x;
 ifstream infile;
@@ -15,6 +16,16 @@ void line()
         cout << "-";
     }
 }
+void enter_number()
+{
+    cin >> x;
+    while (cin.fail())
+    {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+}
+
 void list()
 {
     cout << "\n\nType 1 to encrypt your file \nType 2 to decrypt your file \nType 3 to exit\n";
@@ -23,7 +34,7 @@ void list()
         cout << "-";
     }
     cout << "\n Enter your choose :  ";
-    cin >> x;
+    enter_number();
 }
 void decrypt()
 {
