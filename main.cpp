@@ -15,6 +15,7 @@ int main()
     {
         if (x == 1)
         {
+            cin.clear();
             line();
             openFiles();
             encrypt();
@@ -23,6 +24,7 @@ int main()
         }
         if (x == 2)
         {
+            cin.clear();
             line();
             openFiles();
             decrypt();
@@ -31,8 +33,9 @@ int main()
         }
         if (x != 3 && (x != 2 && x != 1))
         {
-            cout << "You have entered an invalid value,Enter your choose :  ";
-            cin >> x;
+            line();
+            cout << "\nYou have entered an invalid value,Enter your choose :  ";
+            enter_number();
         }
     }
 
