@@ -16,6 +16,7 @@ int main()
         if (x == 1)
         {
             cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             line();
             openFiles();
             encrypt();
@@ -24,6 +25,7 @@ int main()
         }
         if (x == 2)
         {
+            cin.ignore(numeric_limits<streamsize>::max(), '\n')
             cin.clear();
             line();
             openFiles();
