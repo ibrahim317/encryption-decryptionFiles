@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>calm.wav</file>
+    </qresource>
+    <qresource prefix="/icons" lang="english"/>
+    <qresource prefix="/po"/>
+</RCC>

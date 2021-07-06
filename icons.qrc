@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sound"/>
+    <qresource prefix="/sounds"/>
+    <qresource prefix="/asd"/>
+</RCC>
