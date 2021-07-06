@@ -7,7 +7,7 @@ You can use this program to encrypt your files and you can  decrypt the files th
 
 # How to open
 1. `cd encryption-decryptionFiles/`to open the folder that has the main file
-2. Then run`g++ main.cpp -o main && ./main` to run the file
+2. Then run` ./encryptionDcryption` to run the file
 
 
 
