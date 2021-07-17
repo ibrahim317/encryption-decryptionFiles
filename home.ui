@@ -34,32 +34,6 @@
         </property>
        </widget>
       </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_5">
-        <property name="styleSheet">
-         <string notr="true">;background-color: rgb(225, 225, 225)</string>
-        </property>
-        <property name="text">
-         <string>Play Music</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">;background-color: rgb(225, 225, 225)</string>
-        </property>
-        <property name="text">
-         <string>Stop Music</string>
-        </property>
-       </widget>
-      </item>
      </layout>
     </item>
     <item>

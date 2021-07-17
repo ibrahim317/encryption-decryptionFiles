@@ -9,7 +9,6 @@
 #include <QMediaPlayer>
 #include <QMessageBox>
 using namespace std;
-QMediaPlayer * mu=new QMediaPlayer();
 home::home(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::home)
@@ -17,7 +16,6 @@ home::home(QWidget *parent)
     setStyleSheet("background-color:#1d2432;");
     ui->setupUi(this);
     setWindowTitle("Encryption-Decryption");
-    mu->setMedia(QUrl("qrc:/sounds/calm.wav"));
 }
 
 home::~home()
@@ -76,22 +74,6 @@ void home::on_pushButton_2_clicked()
     faile.close();
 }}
 
-
-
-
-
-void home::on_pushButton_3_clicked()
-{
-    mu->pause();
-}
-
-
-
-
-void home::on_pushButton_5_clicked()
-{
-     mu->play();
-}
 
 
 
