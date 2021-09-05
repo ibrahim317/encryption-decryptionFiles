@@ -13,7 +13,7 @@ Creat a dirctory to build the source files in it.\
 To compile the source code you need to creat the MakeFile by\
 `qmake <the path to the dirctory that you cloned>  encryptionDcryption.pro`\
 then run the MakeFile by running\
-`makefile`
+`make`
  
  
 # Run the exuctable file 
