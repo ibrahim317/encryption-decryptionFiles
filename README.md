@@ -3,7 +3,7 @@ You can use this program to encrypt your files and you can  decrypt the files th
 
 
 # cloning 
-first you need to clone the sourec files by\
+first you need to clone the source files by\
 `git clone https://github.com/ibrahim317/encryption-decryptionFiles.git`\
 then creat a dirctory to build the sourec files in it.
 
