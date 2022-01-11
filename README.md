@@ -1,6 +1,10 @@
-# Encryption-decryptionFiles
-You can use this program to encrypt your files and you can  decrypt the files that you encrypted by this program before.
+# Encryption-decryptionFiles 🔐
+Encrypt your files easily 😎
 
+
+
+# Basic overview 🔍
+You can use this program to encrypt your files and you can decrypt the files that you encrypted by this program before.
 
 # Cloning 
 First you need to clone the source code by\
@@ -15,11 +19,9 @@ Then open go to that folder by `cd <the folder name>`.
 
 
 # Compiling 
-To compile the source code you need to creat the MakeFile by\
+To compile the source code you need to create the MakeFile by\
 `qmake <../encryption-decryptionFiles/`\
-then run the MakeFile by running\
-`make`
- 
+then run the MakeFile by running `make`
  
 # Run the exuctable file 
 To run the program just run\
